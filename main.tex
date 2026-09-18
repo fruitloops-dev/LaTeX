@@ -1,0 +1,32 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage{kotex}
+\usepackage[margin=25mm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage[hidelinks]{hyperref}
+
+\title{LaTeX 실시간 미리보기}
+\author{}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+왼쪽의 \texttt{main.tex}를 수정하면 잠시 뒤 오른쪽 PDF에 자동으로 반영됩니다.
+이 문장은 한글과 수식이 함께 잘 출력되는지 확인하는 예제입니다.
+
+\section{수식 예제}
+
+아인슈타인의 질량--에너지 등가식은
+\[
+  E = mc^2
+\]
+입니다.
+
+\section{PDF 내보내기}
+
+빌드가 끝난 PDF는 \texttt{output/pdf/main.pdf}에 생성됩니다. 이 파일이 곧 최종
+PDF이므로 별도의 변환 없이 복사하거나 첨부하면 됩니다.
+
+\end{document}

@@ -1,0 +1,14 @@
+/output/
+
+# LaTeX 보조 파일이 프로젝트 루트에 생겼을 때를 대비한 기본 규칙
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
