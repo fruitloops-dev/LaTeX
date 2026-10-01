@@ -24,7 +24,7 @@
   "latex-workshop.latex.tools": [
     {
       "name": "latexmk-lualatex-2026",
-      "command": "D:/texlive/2026/bin/windows/latexmk.exe",
+      "command": "C:/texlive/2026/bin/windows/latexmk.exe",
       "args": [
         "-synctex=1",
         "-interaction=nonstopmode",
@@ -40,7 +40,7 @@
     },
     {
       "name": "latexmk-pdflatex-2026",
-      "command": "D:/texlive/2026/bin/windows/latexmk.exe",
+      "command": "C:/texlive/2026/bin/windows/latexmk.exe",
       "args": [
         "-synctex=1",
         "-interaction=nonstopmode",
